@@ -9,5 +9,9 @@ func main() {
 	x = 5
 	y = 10
 
-	fmt.Println(x,y,a,b)
+	// Short variable declaration
+	// Only available inside functions
+	fast := 25
+
+	fmt.Println(x,y,a,b,fast)
 }
